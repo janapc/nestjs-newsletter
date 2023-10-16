@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "resolveJsonModule": true,
+    "strict": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@subscribers/*": ["./apps/subscribers/src/*"],
+      "@subscribers-test/*": ["./apps/subscribers/test/*"],
+      "@contents/*": ["./apps/contents/src/*"],
+      "@contents-test/*": ["./apps/contents/test/*"],
+      "@mails/*": ["./apps/mails/src/*"],
+      "@mails-test/*": ["./apps/mails/test/*"]
+    }
+  }
+}
